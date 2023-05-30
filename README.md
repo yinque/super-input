@@ -21,6 +21,11 @@ sequenceDiagram
 ## 渲染文本
 - [ ] 几种常见的格式转换，例如 
 
+
+空格分隔：
+text1  text2  text3 text4  text5  
+ 
+
 行分隔：  
 text1  
 text2  
