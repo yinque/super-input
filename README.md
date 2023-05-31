@@ -7,6 +7,7 @@
 - [ ] 剪切板记录
 - [ ] 文本处理，比如复制了一个词组"news section"，自动处理为指定的代码命名风格（snake_case：news_section）、（CamelCase：NewsSection）
 ## 选区
+- [ ] lowercase与uppercase转换，将选区文本中单词变成全大写或者全小写   
 - [ ] 交换  
 交换选区中两个特定的词语，常用于mermaid的时序图中，例如：  
 ```mermind
