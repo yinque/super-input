@@ -6,7 +6,7 @@
 ## 剪切板
 - [ ] 剪切板记录
 - [ ] 文本处理，比如复制了一个词组"news section"，自动处理为指定的代码命名风格（snake_case：news_section）、（CamelCase：NewsSection）
-## 选区
+## 选区（少量文本处理）
 - [ ] lowercase与uppercase转换，将选区文本中单词变成全大写或者全小写   
 - [ ] 交换  
 交换选区中两个特定的词语，常用于mermaid的时序图中，例如：  
@@ -16,26 +16,18 @@ sequenceDiagram
   数据库->>用户: 返回数据  
 ```
 如果使用该功能即可快速交换“用户”与“数据库”  
-## 原始文本储存
-- [ ] 原始文本
-- [ ] 原始文本集合
-- [ ] 代码片段
-- [ ] 代码片段分类、组织，按照语言、keyword等
-## 渲染文本
+## 转换器（大量文本处理）
 - [ ] 几种常见的格式转换，例如 
-
 
 空格分隔：
 text1  text2  text3 text4  text5  
  
-
 行分隔：  
 text1  
 text2  
 text3  
 text4  
 text5  
-
 
 js数组：['text1', 'text2', 'text3', 'text4', 'text5'] 
 
@@ -55,7 +47,13 @@ INSERT INTO Tab (c1, c2, c3, c4, c5) VALUES
 ('c4r1', 'c4r2', 'c4r3', 'c4r4', 'c4r5')  
 ('c5r1', 'c5r2', 'c5r3', 'c5r4', 'c5r5');
 
-
+## 生成器
+- [ ] 使用预设值模板，通过特定的参数生成代码
+## 文本储存
+- [ ] 剪切板储存
+- [ ] 转换器储存
+- [ ] 生成器储存
+- [ ] 储存按tag分类，tag可以为语言（js，html）、keyword等类型
 
 ## 环境
 - [ ] 工作环境切换
